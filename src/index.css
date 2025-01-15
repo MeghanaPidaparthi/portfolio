@@ -7,7 +7,6 @@
 body {
   @apply bg-background text-white font-montserrat;
 }
-
 h1,
 h2,
 h3,
@@ -16,33 +15,12 @@ h5,
 h6 {
   @apply text-heading font-bold;
 }
-
 button {
   @apply bg-button text-white px-4 py-2 rounded;
-}
-/* Refined fade-in animation with scaling */
-@keyframes refinedFadeIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.refined-fade-in {
-  animation: refinedFadeIn 1.5s ease-out forwards;
-}
-
-/* Optional: Delay for individual sections */
-.refined-fade-in-delay {
-  animation-delay: 0.3s;
 }
 
 /* Hover effect - slight upward movement */
 .section-hover:hover {
-  transform: translateY(-10px); /* Moves the section up by 10px */
-  transition: transform 0.3s ease; /* Smooth transition */
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
 }
