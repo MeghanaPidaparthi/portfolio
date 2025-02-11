@@ -53,10 +53,11 @@ const Portfolio = () => {
                     Details
                   </button>
                 </Link>
+                <a href="https://github.com/MeghanaPidaparthi/KalaaBazaar" target="_blank">
                 <button className="bg-transparent border-2 border-[#222] text-white px-4 py-1 rounded text-sm flex items-center space-x-2 hover:bg-[#222] hover:text-white transition-all">
-                <a href="https://github.com/MeghanaPidaparthi/KalaaBazaar" target="_blank">  <span>View on</span></a>
+                  <span>View on</span>
                   <img src={githubIcon} alt="GitHub Icon" className="w-4 h-4" />
-                </button>
+                </button></a>
               </div>
             </li>
             <li className="text-center">
