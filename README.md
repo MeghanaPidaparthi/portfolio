@@ -45,5 +45,5 @@ This is the source code for Meghana's portfolio website. The portfolio highlight
 
 - **React**: JavaScript library for building user interfaces.
 - **React Router**: Library for routing in React applications.
-- **Firebase**: Backend-as-a-Service for storing contact form submissions.
+- **EmailJS**: Backend-as-a-Service for  contact form submissions.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
